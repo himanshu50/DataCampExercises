@@ -7,6 +7,7 @@ substrRight <- function(x, n){
   substr(x, nchar(x)-n+1, nchar(x))
 }
 # print(substrRight(toString(refine_original$company), 2))
+# print(substrRight(toString(refine_original$company), 2))
 
 my_function <- function(x) {
   print(substrRight(toString(x), 2))
